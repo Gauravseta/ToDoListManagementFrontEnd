@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+    <title>CAST</title>
+
+
+     <!-- Angualr Material CSS -->
+	 <link href="./css/todo_proj.css" rel="stylesheet">
+	<link href="./css/angular-material.css" rel="stylesheet">
+ 
+	  
+
+
+  </head>
+  <body ng-app="todoApp" ng-controller="todoController">
+	<div class="header-section">{{headerTitle}}</div>
+	 <div class="view-section" ui-view></div> 
+	  <div class="footer"></div>
+
+	 <!-- Adding Angular Material-->
+    <script src="./js/libs/angular.js"></script> 
+    <script src="js/libs/angular-aria.js"></script> 
+    <script src="./js/libs/angular-animate.js"></script> 
+    <script src="./js/libs/angular-material.js"></script> 
+	
+	 
+	  <!-- Adding UI-Router -->	
+	  <script src="./js/libs/angular-ui-router.js"></script>	
+	  <script src="./app.js"></script> 
+	   <script src="js/services/dataServices.js"></script> 
+	   <script src="js/controllers/todohomeController.js"></script>
+	   <script src="js/controllers/todoaddController.js"></script>
+  </body>
+</html>

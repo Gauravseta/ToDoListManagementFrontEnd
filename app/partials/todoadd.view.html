@@ -1,0 +1,14 @@
+
+<div class="body-edit">
+<div class="date-picker-section">
+<div class="date-picker-labl">Choose Due Date</div>
+<md-datepicker ng-model="dueDate" md-placeholder="Enter date"></md-datepicker>
+</div>
+<div class="date-picker-section">
+<div class="input-labl" >Task Name</div>
+<input type="text"  ng-model="taskName">
+</div>
+<md-button class="md-raised md-primary edit-add-button" ng-click="addTask()">Add Tasks</md-button>
+<md-button class="md-raised md-warn edit-add-button" ng-click="cancel()">Cancel</md-button>
+<div>
+
