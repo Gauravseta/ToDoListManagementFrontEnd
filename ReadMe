@@ -35,7 +35,7 @@ Note: This Project can be deployed in two ways:
 
 
 *************** 1.  Steps to deploy using Node ******************
-
+Note: MAke sure backend url is configured appropriately as stated in above section.
 Note: I assume that Node and NPM are installed on your machine,If not then install both and then follow below steps.
 
 1.Extract "ToDoListAppFrontEnd.zip",Go to directory "ToDoListAppFrontEnd".
