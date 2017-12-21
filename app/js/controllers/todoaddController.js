@@ -1,4 +1,4 @@
-castObj.controller('todoaddController',['$scope','$state','$stateParams','dataServices','$location','$rootScope',function($scope,$state,$stateParams,dataServices,$location,$rootScope){
+toDoObj.controller('todoaddController',['$scope','$state','$stateParams','dataServices','$location','$rootScope',function($scope,$state,$stateParams,dataServices,$location,$rootScope){
 			
 		$scope.dueDate=new Date();
 		if($stateParams.due_date) {
